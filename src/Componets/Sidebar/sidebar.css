@@ -1,0 +1,33 @@
+.sidebar {
+    width: 8vw;
+    background: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-link  {
+    /* display: block; */
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.3s ease;
+}
+.sidebar-link a {
+    /* display: block; */
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.3s ease;
+}
+
+.sidebar-link:hover {
+    background: #555;
+}
